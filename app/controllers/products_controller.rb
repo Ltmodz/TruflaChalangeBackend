@@ -5,7 +5,7 @@ class ProductsController < ApplicationController
     render json: {
       products: ActiveModel::Serializer::CollectionSerializer.new(
         Product.page(params[:page])
-        .includes(:promotions).per(15).ransack(params[:q]).result,
+        .includes(:promotions).per(30).ransack(params[:q]).result,
         each_serializer: ProductSerializer
       ),
       total_count: Product.ransack(params[:q]).result.count
