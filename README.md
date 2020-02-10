@@ -9,5 +9,10 @@ this is a brief intro on how to use the application and how intall it lets start
 
 * Database = postgresql
 
-* Rails = 5.1.7
+* Rails = 5.1.7 version 
 
+**Installation**
+
+Ruby```
+bundle install
+```
