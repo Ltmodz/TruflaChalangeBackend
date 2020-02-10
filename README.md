@@ -13,6 +13,6 @@ this is a brief intro on how to use the application and how intall it lets start
 
 **Installation**
 
-Ruby```
+```ruby
 bundle install
 ```
